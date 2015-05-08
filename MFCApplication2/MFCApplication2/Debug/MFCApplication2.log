@@ -1,29 +1,11 @@
-﻿빌드 시작: 2015-05-08 오전 10:18:45
-     1>2 노드의 "c:\Users\iot_rnd_note\documents\visual studio 2012\Projects\MFCApplication2\MFCApplication2\MFCApplication2.vcxproj" 프로젝트(Build 대상)입니다.
+﻿빌드 시작: 2015-05-08 오후 4:09:23
+     1>2 노드의 "D:\GitHub\PeterK_test\MFCApplication2\MFCApplication2\MFCApplication2.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCApplication2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DlgTab1.cpp MFCApplication2.cpp MFCApplication2Doc.cpp MFCApplication2View.cpp MainFrm.cpp
-         DlgTab1.cpp
-         코드를 생성하고 있습니다...
-         컴파일하고 있습니다...
-         MFCApplication2View.cpp
-         MFCApplication2.cpp
-         코드를 생성하고 있습니다...
-         건너뛰고 있습니다... (관련된 변경 내용 없음)
-         MainFrm.cpp
-         MFCApplication2Doc.cpp
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0412" /IDebug\ /nologo /fo"Debug\MFCApplication2.res" MFCApplication2.rc 
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\iot_rnd_note\documents\visual studio 2012\Projects\MFCApplication2\Debug\MFCApplication2.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"c:\users\iot_rnd_note\documents\visual studio 2012\Projects\MFCApplication2\Debug\MFCApplication2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\iot_rnd_note\documents\visual studio 2012\Projects\MFCApplication2\Debug\MFCApplication2.lib" /MACHINE:X86 Debug\MFCApplication2.res
-         Debug\DlgTab1.obj
-         Debug\MainFrm.obj
-         Debug\MFCApplication2.obj
-         Debug\MFCApplication2Doc.obj
-         Debug\MFCApplication2View.obj
-         Debug\stdafx.obj
-         MFCApplication2.vcxproj -> c:\users\iot_rnd_note\documents\visual studio 2012\Projects\MFCApplication2\Debug\MFCApplication2.exe
-     1>"c:\Users\iot_rnd_note\documents\visual studio 2012\Projects\MFCApplication2\MFCApplication2\MFCApplication2.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MFCApplication2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\github\peterk_test\mfcapplication2\mfcapplication2\stdafx.cpp : fatal error C1033: 'd:\github\peterk_test\mfcapplication2\mfcapplication2\debug\vc110.idb' 프로그램 데이터베이스를 열 수 없습니다.
+     1>"D:\GitHub\PeterK_test\MFCApplication2\MFCApplication2\MFCApplication2.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
 
-빌드했습니다.
+빌드하지 못했습니다.
 
-경과 시간: 00:00:01.14
+경과 시간: 00:00:00.73

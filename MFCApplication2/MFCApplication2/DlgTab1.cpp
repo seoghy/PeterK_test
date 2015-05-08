@@ -94,6 +94,7 @@ void CDlgTab1::OnCbnSelchangeComboItem()
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CString	strItem;
 
+
 	m_ComboItem.GetLBText(m_ComboItem.GetCurSel(),strItem);
 	m_EditItem.SetWindowTextA(strItem);
 }
