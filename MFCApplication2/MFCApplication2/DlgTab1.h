@@ -1,5 +1,6 @@
 #pragma once
 #include "afxwin.h"
+#include "afxcmn.h"
 
 
 // CDlgTab1 대화 상자입니다.
@@ -28,4 +29,12 @@ public:
 	afx_msg void OnBnClickedButton2Delete();
 	CComboBox m_ComboItem;
 	afx_msg void OnCbnSelchangeComboItem();
+	CButton m_CheckEnable;
+	afx_msg void OnBnClickedCheck1Enable();
+	afx_msg void OnBnClickedRadio1();
+	afx_msg void OnBnClickedRadio2();
+	afx_msg void OnBnClickedRadio3();
+	CProgressCtrl m_ProgressRange;
+	CSliderCtrl m_SliderRange;
+	afx_msg void OnNMCustomdrawSlider1(NMHDR *pNMHDR, LRESULT *pResult);
 };
